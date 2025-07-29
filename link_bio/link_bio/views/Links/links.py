@@ -3,8 +3,9 @@ from link_bio.components.link_button import link_button
 
 def links() -> rx.Component:
     return rx.vstack(
-        link_button("Twitch"),
-        link_button("Instagram"),
-        link_button("Youtube"),
-        link_button("Discord")
+        link_button("Twitch", "http://twitch"),
+        link_button("Instagram", "http://www.colegiosisp.com"),
+        link_button("Youtube", "http://www.youtube.es"),
+        link_button("Discord", "http://www.discord.com"),
+        align = 'center'
     )
