@@ -45,6 +45,5 @@ icon_centered = {
 
 title_style = dict(
     width="100%",
-    size="md",
     padding_top=Size.DEFAULT.value
 )

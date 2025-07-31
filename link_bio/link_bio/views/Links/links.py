@@ -18,7 +18,7 @@ def links() -> rx.Component:
             "http://www.youtube.es",
         ),
         link_button("Discord", "Quedadas en directo", "http://www.discord.com"),
-title("Comunidad"),
+        title("Comunidad"),
         link_button("Twitch", "Directos de lunes a viernes", "http://twitch"),
         link_button(
             "Instagram",
@@ -31,9 +31,7 @@ title("Comunidad"),
             "http://www.youtube.es",
         ),
         link_button("Discord", "Quedadas en directo", "http://www.discord.com"),
-
-
         width="100%",
         align="center",
-        spacing="2"
+        spacing="2",
     )
