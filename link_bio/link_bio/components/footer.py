@@ -12,7 +12,8 @@ def footer() -> rx.Component:
         rx.link("Link de Cristian Serrat", href="http://www.code.org", is_external="true", font_size=Size.MEDIUM),
         rx.text(f"{datetime.date.today().year} Cristian Serrat Copyright", font_size=Size.MEDIUM),
         rx.text(
-            "BUILDING SOFTWARE WITH 🤍", font_size=Size.MEDIUM
+            "BUILDING SOFTWARE WITH 🤍", font_size=Size.MEDIUM,
+            margin_top= Size.ZERO.value
         ),
         align="center",
         margin_bottom=Size.BIG.value,

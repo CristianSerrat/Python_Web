@@ -17,7 +17,7 @@ def header() -> rx.Component:
                     ),
                 rx.text("@CristianSerrat", 
                         size="2", 
-                        margin_top="0px !important",
+                        margin_top=Size.ZERO.value,
                         color = TextColor.BODY.value),
                 rx.hstack(
                     link_icon("www.iconos.org"),
@@ -34,9 +34,9 @@ def header() -> rx.Component:
         rx.flex(
             info_text("+13", "años de experiencia"),
             rx.spacer(),
-            info_text("+13", "años de experiencia"),
+            info_text("+7", "años en Colegios ISP"),
             rx.spacer(),
-            info_text("+13", "años de experiencia"),
+            info_text("", "Aplicaciones web"),
             width="100%"
         ),
         rx.text(
